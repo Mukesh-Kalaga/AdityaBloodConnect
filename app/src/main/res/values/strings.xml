@@ -1,0 +1,56 @@
+<resources>
+
+    <string-array name="villages">
+        <item>Kakinada</item>
+        <item>Rajahmundry</item>
+        <item>Annavaram</item>
+        <item>Tuni</item>
+        <item>Bhimavaram</item>
+        <item>Eluru</item>
+        <item>Kovvuru</item>
+        <item>Palakollu</item>
+        <item>Prakasam</item>
+        <item>Vishakhapatnam</item>
+        <item>Anakapalli</item>
+        <item>Narsipatnam</item>
+        <item>Srikakulam</item>
+        <item>Tekkali</item>
+        <item>Narasannapeta</item>
+        <item>Palasa</item>
+        <item>Amaravathi</item>
+        <item>Nuzividu</item>
+        <item>Gudiwada</item>
+        <item>Machilipatnam</item>
+    </string-array>
+    <string name="app_name">Aditya Blood Connect</string>
+    <string name="visiontext">Aditya Blood Connect vision is:
+To pave way for a safer and better tommorrow.
+Safer, by bringing blood donors and those in need to a common platform.
+Better, by providing every person what he/she deserves the most, best education.
+Our aim in next 5 years,
+To be the real hope of every Indian in search of a voluntary blood donor.
+To set up a well organised infrastructure through out the country to cater to the education of the under
+resourced by way of maintaining a repository of contributed books and providing as many resources as
+possible for rural child education.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="register">Register</string>
+    <string name="search">Search</string>
+    <string name="communicate">Communicate</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="aditya_blood_connect">Aditya Blood Connect</string>
+    <string name="donate_blood">Donate BLOOD, Save LIVES</string>
+    <string name="vision">VISION</string>
+    <string name="developed_by">DEVELOPED BY</string>
+    <string name="todo">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

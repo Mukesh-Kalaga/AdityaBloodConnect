@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adityawebapps.adityabloodconnect.FeedbackFragment"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:textColor="#fff"
+        android:background="#757575"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We Value Your Every Word"
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_white"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:id="@+id/editText"
+        android:textColorHint="#000"
+        android:hint="Email" />
+
+    <EditText
+        android:gravity="top|left"
+        android:padding="5dp"
+        android:background="@drawable/bg_white"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:inputType="textPersonName"
+        android:hint="Your Feedback Here"
+        android:textColorHint="#000"
+        android:textColor="#fff"
+        android:ems="10"
+        android:id="@+id/editText2" />
+
+
+    <!--
+        blank fr<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="20dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>agment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/red"
+            android:text="SEND FEEDBACK"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
+

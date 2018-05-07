@@ -1,0 +1,283 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="com.adityawebapps.adityabloodconnect.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="20dp"
+                    android:background="#757575"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="0dp"
+                    android:text="REGISTER YOURSELF"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp">
+
+                <EditText
+                    android:id="@+id/name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_white"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textColorHint="#000000" />
+
+                <EditText
+                    android:id="@+id/phone_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_white"
+                    android:ems="10"
+                    android:hint="Phone"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#000000" />
+
+                <EditText
+                    android:id="@+id/email_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_white"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#000000" />
+
+                <EditText
+                    android:id="@+id/date_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_white"
+                    android:ems="10"
+                    android:hint="Date of birth"
+                    android:inputType="date"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textColorHint="#000" />
+
+                <EditText
+                    android:id="@+id/city_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_white"
+                    android:ems="10"
+                    android:hint="City"
+                    android:inputType="textPersonName"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textColorHint="#000000" />
+
+                <EditText
+                    android:id="@+id/address_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/bg_white"
+                    android:ems="10"
+                    android:hint="Address"
+                    android:inputType="textPostalAddress"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textColorHint="#000" />
+
+                <Switch
+                    android:id="@+id/avail_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_white"
+                    android:padding="10dp"
+                    android:text="Willing to Donate Blood"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:padding="0dp">
+
+                    <Button
+                        android:id="@+id/male"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_white"
+                        android:text="MALE"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/female"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_white"
+                        android:text="FEMALE"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/a_plus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_white"
+                    android:text="A+"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/a_minus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/a_plus"
+                    android:background="@drawable/bg_white"
+                    android:text="A-"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b_plus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/a_minus"
+                    android:background="@drawable/bg_white"
+                    android:text="B+"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/b_minus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/b_plus"
+                    android:background="@drawable/bg_white"
+                    android:text="B-"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/ab_plus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/b_minus"
+                    android:background="@drawable/bg_white"
+                    android:text="AB+"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/ab_minus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/a_minus"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/bg_white"
+                    android:text="AB-"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/o_plus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/b_plus"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/ab_minus"
+                    android:background="@drawable/bg_white"
+                    android:text="O+"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/o_minus"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/b_minus"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/o_plus"
+                    android:background="@drawable/bg_white"
+                    android:text="O-"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/submit_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/red"
+                android:text="REGISTER"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

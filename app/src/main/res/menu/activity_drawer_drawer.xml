@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_shortcut_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_shortcut_edit"
+            android:title="@string/register" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_shortcut_search"
+            android:title="@string/search" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_shortcut_feedback"
+                android:title="@string/feedback" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_shortcut_info"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    tools:context="com.adityawebapps.adityabloodconnect.SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:padding="10dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/a_plus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white"
+                android:text="A+"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/a_minus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/a_plus"
+                android:background="@drawable/bg_white"
+                android:text="A-"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b_plus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/a_minus"
+                android:background="@drawable/bg_white"
+                android:text="B+"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b_minus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/b_plus"
+                android:background="@drawable/bg_white"
+                android:text="B-"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ab_plus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/b_minus"
+                android:background="@drawable/bg_white"
+                android:text="AB+"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/ab_minus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/a_minus"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_white"
+                android:text="AB-"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/o_plus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/b_plus"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/ab_minus"
+                android:background="@drawable/bg_white"
+                android:text="O+"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/o_minus"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/b_minus"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/o_plus"
+                android:background="@drawable/bg_white"
+                android:text="O-"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <Spinner
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:background="@drawable/bg_white"
+            android:padding="20dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:background="#757575"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="FIND DONORS"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/donor" />
+
+
+</RelativeLayout>

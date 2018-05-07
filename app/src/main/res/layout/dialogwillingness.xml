@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <TextView
+        android:text="Change Willingness"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:paddingLeft="20dp"
+        android:ems="10"
+        android:id="@+id/email_willingness" />
+
+    <Switch
+        android:layout_marginTop="5dp"
+        android:text="Availability"
+        android:paddingLeft="20dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:id="@+id/availability_switch" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:text="Change Availability"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_button" />
+</LinearLayout>
